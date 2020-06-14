@@ -12,6 +12,6 @@
         <description>A sample project</description>
     </metadata>
     <files>
-        <file src="bin\roslyn\*.*" target="bin\roslyn" />
+        <file src="bin\roslyn\*.*" target="bin\roslyn" p:OctoPackEnforceAddingFiles=true />
     </files>
 </package>
