@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>WebApplication2</id>
+        <title>A Sample ASP.NET 4.5 Application</title>
+        <version>1.0.0</version>
+        <authors>Octopus Deploy</authors>
+        <owners>Octopus Deploy</owners>
+        <licenseUrl>https://github.com/therajahilda/dotnetwebapplication.git</licenseUrl>
+        <projectUrl>https://github.com/therajahilda/dotnetwebapplication.git</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A sample project</description>
+    </metadata>
+    <files>
+        <file src="bin\roslyn\*.*" target="bin\roslyn" />
+    </files>
+</package>
